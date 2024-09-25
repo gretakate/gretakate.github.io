@@ -1,0 +1,227 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, button {
+    margin: 0; /* Reset margin to 0 */
+    padding: 0; /* Reset padding to 0 */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Set the font family for the entire page */
+    background-color: #f0f0f0; /* Set the background color for the body */
+    color: #333; /* Set the text color */
+    line-height: 1.6; /* Set the line height for text */
+    margin: 0; /* Reset margin to 0 */
+    padding: 0; /* Reset padding to 0 */
+}
+
+header {
+    background-image: url('Logos/pexels-stephan-seeber-1054218.jpg'); /* Set a background image for the header */
+    background-size: cover; /* Scale the background image to cover the header */
+    height: 100vh; /* Set the header height to fill the viewport height */
+    color: #fff; /* Set the text color inside the header */
+    text-align: center; /* Center-align text inside the header */
+    padding: 0; /* Remove padding to take up the whole page */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items vertically in a column */
+    justify-content: center; /* Vertically center items within the header */
+    align-items: center; /* Horizontally center items within the header */
+}
+
+.header-content {
+    max-width: 1000px; /* Set the maximum width for the content within the header */
+    margin: 0 auto; /* Center-align the content within the header */
+    padding: 3rem 0; /* Add padding above and below the header content */
+}
+
+header h1 {
+    font-size: 4rem; /* Increase font size for header text */
+    margin-bottom: 1rem; /* Add spacing below the header text */
+}
+
+.contact-icons li {
+    display: inline-block; /* Display logos in a row */
+    margin-right: 20px; /* Add right margin to separate icons */
+}
+
+.contact-icons a img {
+    width: 50px; /* Increase logo size */
+    height: 50px; /* Increase logo size */
+    transition: opacity 0.3s; /* Add a smooth opacity transition on hover */
+}
+
+.nav-links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem; /* Add some padding for spacing */
+}
+
+.nav-links ul {
+    list-style: none;
+}
+
+.nav-links ul li {
+    display: inline;
+    margin-right: 1rem; /* Adjust the spacing between navigation links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff; /* Set the color for navigation links */
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+section {
+    max-width: 1000px; /* Set the maximum width for content sections */
+    margin: 0 auto; /* Center-align content sections */
+    padding: 2rem; /* Add padding around content sections */
+    background-color: #fff; /* Set the background color for content sections */
+    margin-top: 2rem;
+    margin-bottom: 2rem; /* Add space between content sections */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow for sections */
+}
+
+h2 {
+    font-size: 1.5rem; /* Set font size for section headings */
+    margin-bottom: 1rem; /* Add spacing below section headings */
+}
+
+ul {
+    list-style: none; /* Remove default list bullet points */
+}
+
+li {
+    margin-bottom: 0.5rem; /* Add spacing between list items */
+}
+
+a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #000000; /* Set the color for links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Add styles for the "Skills" section */
+#skills {
+    text-align: center; /* Center-align the content within the section */
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-item {
+    background-color: #f0f0f0; /* Grey background color for skill items */
+    padding: 1rem; /* Add padding to each skill item */
+    margin: 0.5rem; /* Add margin around each skill item */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+button {
+    background-color: #98dae3; /* Set the background color for buttons */
+    color: #000000; /* Set the text color for buttons */
+    border: none; /* Remove button borders */
+    padding: 0.5rem 1rem; /* Add padding to buttons */
+    font-size: 1rem; /* Set font size for buttons */
+    cursor: pointer; /* Change cursor to pointer on buttons */
+    transition: background-color 0.3s; /* Add a smooth background color transition on hover */
+}
+
+/* Center the "Download Resume" button */
+.button-container {
+    text-align: center; /* Center-align content within the container */
+}
+
+.button-container button {
+    /* Your existing button styles here */
+
+    /* To center the button horizontally within its container */
+    display: block; /* Make the button a block-level element */
+    margin: 0 auto; /* Center the button horizontally within the container */
+    margin-bottom: 2rem; /* Add space between content sections */
+}
+
+button:hover {
+    background-color: rgb(129, 189, 221); /* Set the background color for buttons on hover */
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem; /* Reduce font size for smaller screens */
+    }
+    
+    header p {
+        font-size: 1rem; /* Reduce font size for smaller screens */
+    }
+
+    section {
+        padding: 1rem; /* Reduce padding for smaller screens */
+    }
+
+    h2 {
+        font-size: 1.2rem; /* Reduce font size for smaller screens */
+    }
+}
+
+.extracurricular-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.extracurricular-img {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 15px;
+}
+
+.extracurricular-details {
+    flex: 1;
+}
+
+.education-item, .experience-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.logo-img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 15px;
+}
+
+.education-details, .experience-details {
+    flex: 1;
+}
+
+.about-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem; /* Add space below each about-item if needed */
+}
+
+.about-img {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.about-details {
+    flex: 1;
+}
+
+.button-container {
+    margin-top: 1rem; /* Add space above the button-container */
+    text-align: center; /* Center the button horizontally */
+}
+
+.button-container button {
+    margin-top: 1rem; /* Add space above the button if needed */
+}
