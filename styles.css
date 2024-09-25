@@ -168,19 +168,19 @@ button:hover {
     }
 }
 
-.extracurricular-item {
+.project-item {
     display: flex;
     align-items: flex-start;
     margin-bottom: 1rem;
 }
 
-.extracurricular-img {
+.project-img {
     width: 150px; /* Adjust size as needed */
     height: auto;
     margin-right: 15px;
 }
 
-.extracurricular-details {
+.project-details {
     flex: 1;
 }
 
