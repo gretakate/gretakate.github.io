@@ -141,12 +141,18 @@
 
     <section id="projects">
         <h2>Projects</h2>
-    
+        <div class="project-item">
+            <img src="Logos/graph-network.png" alt="Graph Network Image" class="project-img">
+            <div class="project-details">
+                <h3>Deconvoluting Mixed Virus RNA Sequences with Graph Attention Networks (GATs)</h3>
+                <p>Designed a novel method for separating read fragments from a mixture of SARS-COV-2 virus sequences to enable early detection of emerging strains. Trained a GAT to create embedding vectors from a graph of reads from unknown sources, optimized to cluster reads by original source sequence. Achieved an Adjusted Rand Index of 0.86 on test mixtures, indicating strong consistency between clusters produced and original sources.</p>
+            </div>
+        </div>
         <div class="project-item">
             <img src="Logos/transformer.png" alt="Transformer Image" class="project-img">
             <div class="project-details">
                 <h3>Coding and Training a Transformer from Scratch</h3>
-                <p>TODO: Add description and link</p>
+                <p>Wrote a PyTorch implementation of a Transformer and trained it for English to Italian translation. Created custom model and configuration classes compatible with the Hugging Face Transformers library and hosted the trained model on Hugging Face.</p>
             </div>
         </div>
     </section>
