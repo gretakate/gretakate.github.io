@@ -177,7 +177,8 @@ button:hover {
 .project-img {
     width: 150px; /* Adjust size as needed */
     height: auto;
-    margin-right: 15px;
+    margin-right: 25px;
+    justify-content: center;
 }
 
 .project-details {
